@@ -1,58 +1,52 @@
-# 📄 Portafolio Profesional - Jhon Sebastian Ardila Moreno 🚀
+# 📄 Professional Portfolio - Jhon Sebastian Ardila Moreno 🚀
 
-![Preview del Portafolio](img/1500751267bdd0d91d5330.478563770.120118001740493017.jpeg)
+## 👨‍💻 About the Project
+Professional portfolio of Jhon Sebastian Ardila Moreno, an aspiring software developer. Includes:
+- Professional profile 📌
+- Academic background 🎓
+- Work experience 💼
+- Technical and soft skills 🛠️
+- Contact section 📱
 
-## 👨‍💻 Sobre el Proyecto
-Portafolio profesional de Jhon Sebastian Ardila Moreno, desarrollador de software en formación. Incluye:
-- Perfil profesional 📌
-- Formación académica 🎓
-- Experiencia laboral 💼
-- Habilidades técnicas y blandas 🛠️
-- Sección de contacto 📱
+## 🌟 Features
+- **Modern and responsive design** 📱💻
+- **Interactive visual effects** ✨
+  - Animated progress bars
+  - Hover effects on elements
+- **Semantic structure** HTML5
+- **Styled with CSS3** (variables, flexbox, grid)
+- **Custom typography** (Montserrat) 🔠
 
-## 🌟 Características
-- **Diseño moderno y responsive** 📱💻
-- **Efectos visuales interactivos** ✨
-  - Barras de progreso animadas
-  - Efectos hover en elementos
-- **Estructura semántica** HTML5
-- **Estilizado con CSS3** (variables, flexbox, grid)
-- **Tipografía personalizada** (Montserrat) 🔠
-
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Technologies Used
 - ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white)
 - ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white)
-- ![Font Awesome](https://img.shields.io/badge/-Font_Awesome-339AF0?logo=fontawesome&logoColor=white) (para íconos)
+- ![Font Awesome](https://img.shields.io/badge/-Font_Awesome-339AF0?logo=fontawesome&logoColor=white) (for icons)
 
-## 📂 Estructura de Archivos
+## 📂 File Structure
 portfolio/
-├── index.html # Página principal
+├── index.html # Main page
 ├── css/
-│ └── styles.css # Estilos principales
+│ └── styles.css # Main styles
 ├── img/
-│ └── foto-perfil.jpg # Imagen de perfil
-└── fonts/ # Fuentes Montserrat
+│ └── foto-perfil.jpg # Profile image
+└── fonts/ # Montserrat fonts
 
-## 🎨 Paleta de Colores
-| Color               | Uso principal          |
-|---------------------|------------------------|
-| `#2c3e50` (azul oscuro) | Fondos, textos       |
-| `#3498db` (azul)    | Elementos destacados   |
-| `#e74c3c` (rojo)    | Acentos                |
-| `#ecf0f1` (gris claro) | Fondos secundarios  |
+## 🎨 Color Palette
+| Color               | Primary Use           |
+|---------------------|-----------------------|
+| `#2c3e50` (dark blue) | Backgrounds, texts   |
+| `#3498db` (blue)     | Highlighted elements  |
+| `#e74c3c` (red)      | Accents               |
+| `#ecf0f1` (light gray) | Secondary backgrounds |
 
 ## 📱 Responsive Design
-- Adaptable a móviles 📱, tablets y escritorios 💻
-- Menú de navegación optimizado
-- Reorganización de secciones en pantallas pequeñas
+- Adaptable to mobile 📱, tablet, and desktop 💻
+- Optimized navigation menu
+- Section reorganization on small screens
 
-## 🔗 Enlaces
+## 🔗 Links
 - [GitHub](https://github.com/Jharmo05) 🐙
 - [LinkedIn](https://www.linkedin.com/in/sebastian-ardila-57a85a1ba/) 💼
 
-## 📜 Licencia
-© 2025 Jhon Sebastian Ardila Moreno. Todos los derechos reservados.
-
----
-
-✨ **"Transformando ideas en soluciones digitales innovadoras"** ✨
+## 📜 License
+© 2025 Jhon Sebastian Ardila Moreno. All rights reserved.
