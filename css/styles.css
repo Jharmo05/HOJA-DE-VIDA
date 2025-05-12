@@ -353,3 +353,249 @@ main {
 .habilidad {
     margin-bottom: 1.5rem;
 }
+
+.habilidad-nombre {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.barra-progreso {
+    height: 8px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progreso {
+    height: 100%;
+    background: linear-gradient(90deg, var(--color-secundario), var(--color-acento));
+    border-radius: 4px;
+    position: relative;
+    animation: progreso-animacion 1.5s ease-in-out;
+}
+
+@keyframes progreso-animacion {
+    from {
+        width: 0;
+    }
+}
+
+/* Idiomas */
+.idioma {
+    margin-bottom: 1.5rem;
+}
+
+.idioma-nombre {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.nivel-container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.nivel-circulo {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid var(--color-secundario);
+}
+
+.nivel-completo {
+    background-color: var(--color-secundario);
+}
+
+.nivel-vacio {
+    background-color: transparent;
+}
+
+/* Footer */
+footer {
+    background-color: var(--color-primario);
+    color: white;
+    padding: 3rem 2rem 1rem;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.contacto-section, .referencias-section, .redes-section {
+    flex: 1 1 300px;
+}
+
+footer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    display: inline-block;
+}
+
+footer h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background-color: var(--color-secundario);
+}
+
+.contacto-lista {
+    list-style: none;
+}
+
+.contacto-lista li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.contacto-lista li svg {
+    margin-right: 1rem;
+    min-width: 16px;
+    color: var(--color-secundario);
+}
+
+.referencias-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.referencia {
+    flex: 1 1 100%;
+    margin-bottom: 1rem;
+}
+
+.referencia h3 {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.referencia p {
+    font-size: 0.9rem;
+    color: #ccc;
+    margin-bottom: 0.25rem;
+}
+
+.redes-lista {
+    display: flex;
+    gap: 1rem;
+}
+
+.red-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: white;
+    transition: var(--transicion);
+}
+
+.red-social:hover {
+    background-color: var(--color-secundario);
+    transform: translateY(-3px);
+}
+
+.derechos {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header {
+        padding: 3rem 1.5rem;
+    }
+    
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .header-text {
+        margin-bottom: 2rem;
+    }
+    
+    .profile-photo {
+        margin-left: 0;
+    }
+    
+    nav ul {
+        flex-wrap: wrap;
+    }
+    
+    .timeline {
+        padding-left: 1.5rem;
+    }
+    
+    .timeline-dot {
+        left: -2rem;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+    }
+    
+    .contacto-section, .referencias-section, .redes-section {
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+    
+    .tagline {
+        font-size: 1.2rem;
+    }
+    
+    .profile-photo {
+        width: 150px;
+        height: 150px;
+    }
+    
+    nav ul li a {
+        padding: 1rem 0.8rem;
+        font-size: 0.8rem;
+    }
+    
+    .seccion-header h2 {
+        font-size: 1.5rem;
+    }
+    
+    .seccion-content {
+        padding: 1.5rem;
+    }
+    
+    .habilidades-container {
+        flex-direction: column;
+    }
+}
+
+
+.foto-perfil {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
+}
