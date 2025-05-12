@@ -45,8 +45,9 @@ portfolio/
 - Section reorganization on small screens
 
 ## 🔗 Links
-- [GitHub](https://github.com/Jharmo05) 🐙
+- [GitHub Pages]((https://jharmo05.github.io/HOJA-DE-VIDA/)) 🐙 
 - [LinkedIn](https://www.linkedin.com/in/sebastian-ardila-57a85a1ba/) 💼
+- 
 
 ## 📜 License
 © 2025 Jhon Sebastian Ardila Moreno. All rights reserved.
