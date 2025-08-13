@@ -518,6 +518,30 @@ footer h2::after {
     color: #ccc;
 }
 
+/* ===== Ajustes para habilidades con iconos ===== */
+.habilidad {
+    margin-bottom: 2.5rem; /* más espacio entre habilidades */
+    display: flex;
+    align-items: center;
+    gap: 0.8rem; /* espacio entre icono y texto */
+}
+
+.habilidad img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.habilidad-nombre {
+    flex: 0 0 auto;
+    min-width: 120px; /* alinear nombres */
+}
+
+.barra-progreso {
+    flex: 1;
+}
+
+
 /* Responsive */
 @media (max-width: 768px) {
     header {
